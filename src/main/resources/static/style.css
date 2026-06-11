@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background: linear-gradient(
+            135deg,
+            #0f172a,
+            #2563eb,
+            #7c3aed
+    );
+}
+
+/* Transparent Glass Card */
+.container,
+.result-container{
+    width:450px;
+    padding:40px;
+
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:25px;
+
+    box-shadow:0 8px 32px rgba(0,0,0,0.25);
+
+    text-align:center;
+}
+
+h2{
+    color:white;
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:rgba(255,255,255,0.8);
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    text-align:left;
+    margin:15px 0 8px;
+    color:white;
+    font-weight:600;
+}
+
+input[type="text"]{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+
+    background:rgba(255,255,255,0.2);
+    color:white;
+    font-size:16px;
+}
+
+input[type="text"]::placeholder{
+    color:rgba(255,255,255,0.7);
+}
+
+input[type="text"]:focus{
+    outline:none;
+    box-shadow:0 0 15px rgba(255,255,255,0.3);
+}
+
+input[type="submit"]{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+
+    border:none;
+    border-radius:12px;
+
+    background:white;
+    color:#2563eb;
+
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+input[type="submit"]:hover{
+    transform:translateY(-3px);
+    background:#f8fafc;
+}
+
+.result-value{
+    font-size:70px;
+    font-weight:bold;
+    color:white;
+}
+
+

@@ -44,7 +44,7 @@ src
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/spring-boot-calculator.git
+git clone https://github.com/Sathish292004/SpringWeb_Calculator_study.git
 ```
 
 Navigate to the project folder:
